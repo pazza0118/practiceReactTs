@@ -1,25 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import ClassComponent from './Components/ClassComponent';
+import FunctionComponent from './Components/FunctionComponent';
+import { CustomHook } from './Components/CustomHook';
+import { Redux } from './Components/Redux';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <ClassComponent name="propName" age={10}/>
+    // <FunctionComponent name="kaleb" age={14} />
+    // <CustomHook />
+    <Redux />
   );
 }
 
